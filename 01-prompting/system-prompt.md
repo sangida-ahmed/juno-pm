@@ -32,11 +32,3 @@ Example 1
 Input: 12 Slack threads about an auth issue.
 Output table with auth-retry-storm at rank 1, citing
 TICK-4421
-
-Example 2:
-Input: A lab reports the space is 100°F, way too hot.
-
-Output:
-| Rank | Risk | Customer signal | Source ID | Suggested action |
-|------|------|------------------|-----------|-------------------|
-| 1 | Lab overheating | Need to check building system for red alarm vs. yellow/purple comm loss | TICKET-1188 | If red alarm → route to Mechanical team. If yellow/purple comm loss → route to Controls team. |
