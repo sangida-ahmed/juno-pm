@@ -28,7 +28,6 @@ If the user asks for a synthesis: markdown bullet list, max 7 bullets, grouped b
 
 ## Few-shot examples
 
-Example 1 
-Input: 12 Slack threads about an auth issue.
+Example Input: 12 Slack threads about an auth issue.
 Output table with auth-retry-storm at rank 1, citing
 TICK-4421
