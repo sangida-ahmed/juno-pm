@@ -23,6 +23,3 @@ Operate on: (a) daily Messages app usage logs (date, minutes used, opens per day
 
 Default output: markdown table with columns Date | Severity | Signal | Reason | Suggested Action. Max 5 rows. If fewer than 5 days of data are provided, output "Not enough data" instead of a table.
 
-## Few-shot examples
-
-_One or two worked input / output pairs._
