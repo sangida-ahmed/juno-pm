@@ -14,4 +14,4 @@ Deciding how to power Juno's anomaly detection: build a custom model, use an exi
 
 ## Recommendation
 
-Buy / API. An existing LLM (like the one already powering Juno's prompt) solves this without needing training data or infrastructure. Cost and speed matter most for a V1 prototype, and the risk is low since a human still reviews every flagged anomaly before acting. Moat isn't a priority at this stage proving the workflow works is.
+Buy / API is the right choice. The task is simple: read a small table of Messages usage numbers and figure out which day looks unusual. That doesn't require building or retraining a new model from scratch, since an existing model (like the one already running behind Juno in our prototype) can already do it well when given clear rules to follow. We already proved this works: when we tested Juno's system prompt, it correctly caught a real drop on a Thursday while correctly ignoring a normal dip over the weekend. Since the goal right now is proving the idea works, not building something no one else can copy, using an existing model to power Juno is the smartest and fastest option.
